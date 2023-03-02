@@ -35,11 +35,12 @@ h1 {
     border-radius: 5%;
     background-color: #aeb9c3;
     margin: 2rem 8rem;
-    padding: 20px;
-    display: block;
+    padding: 1rem;
+    align-content: center;
+    display: inline-block;
 }
 
-.sidebar {
+.top {
     text-align: center;
     margin: auto;
     align-content: center;
@@ -48,11 +49,16 @@ h1 {
 .board {
     margin: auto;
     align-content: center;
-    padding: 1.2rem;
+    padding: 1rem;
 }
 
-.add-word {
+.bottom {
     margin: auto;
     padding: 1rem;
     text-align: center;
+    width: fit-content;
+}
+
+li {
+    text-align: left;
 }

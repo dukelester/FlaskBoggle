@@ -10,8 +10,7 @@
 <body>
     <h1>Boggle</h1>
     <section id="boggle">
-        <div class="sidebar">
-            <button>Reset</button>
+        <div class="top">
             <p>Highscore:</p>
             <p>Current Score:</p>
         </div>
@@ -28,13 +27,18 @@
             </tbody>
         </table>
 
-        <form method="POST" class="add-word">
-            <input name="word" class="word" autofocus>
-            <button>Enter</button>
-        </form>
+        <div class="bottom">
+            <form method="POST" class="add-word">
+                <input name="word" class="word" autofocus>
+                <button>Enter</button>
+            </form>
+            <br>
 
-        <p class="msg"></p>
-        <ul class="word-list"></ul>
+            <button class="reset-button">Reset</button>
+            
+            <p class="msg"></p>
+            <ul class="word-list"></ul>
+        </div>
     </section>
 
     <script src="http://unpkg.com/jquery"></script>
