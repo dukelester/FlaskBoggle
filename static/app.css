@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #e5e8eb;
+}
+
+h1 {
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    font-size: 2rem;
+}
+
+.cell {
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 20%;
+    border-style: outset;
+    border-width: thin medium thick;
+    border-color: #383c40;
+    background-color: lightslategray;
+}
+
+.board {
+    border-radius: 5%;
+    background-color: #aeb9c3;
+    margin: 20px auto;
+    padding: 20px 20px;
+}
+
+.add-word {
+    margin: auto;
+    text-align: center;
+}
