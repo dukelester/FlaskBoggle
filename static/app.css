@@ -9,15 +9,15 @@ h1 {
     color: white;
     text-align: center;
     margin: 0;
-    padding: 15px;
+    padding: 1rem;
     font-size: 2rem;
 }
 
 .cell {
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     text-align: center;
-    padding: 10px;
+    padding: .75rem;
     color: white;
     border-radius: 20%;
     border-style: outset;
@@ -26,14 +26,33 @@ h1 {
     background-color: lightslategray;
 }
 
-.board {
+/* Highlight selected cells */
+/* #selected {
+    box-shadow: inset;
+} */
+
+#boggle {
     border-radius: 5%;
     background-color: #aeb9c3;
-    margin: 20px auto;
-    padding: 20px 20px;
+    margin: 2rem 8rem;
+    padding: 20px;
+    display: block;
+}
+
+.sidebar {
+    text-align: center;
+    margin: auto;
+    align-content: center;
+}
+
+.board {
+    margin: auto;
+    align-content: center;
+    padding: 1.2rem;
 }
 
 .add-word {
     margin: auto;
+    padding: 1rem;
     text-align: center;
 }
