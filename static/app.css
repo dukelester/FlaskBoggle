@@ -56,9 +56,4 @@ h1 {
     margin: auto;
     padding: 1rem;
     text-align: center;
-    width: fit-content;
-}
-
-li {
-    text-align: left;
 }

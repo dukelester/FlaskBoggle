@@ -11,6 +11,11 @@
     <h1>Boggle</h1>
     <section id="boggle">
         <div class="top">
+            <p> 
+                High Score: <b> {{highscore}} </b> 
+                in {{nplays}} plays 
+            </p>
+
             <p>
                 Score: <b class="score">0</b> | Timer: <b class="timer"></b>
             </p>
@@ -34,7 +39,10 @@
                 <button>Submit</button>
             </form>
             <br>
-            <button class="reset-button">Restart</button>
+
+            <form action="restart">
+                <button class="reset-button">Restart</button>
+            </form>
             
             <p class="msg"></p>
             <ul class="words">
