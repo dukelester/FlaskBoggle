@@ -1,9 +1,12 @@
-from boggle import Boggle
-boggle_game = Boggle()
+# import os
+# import time
 
 from flask import Flask, request, render_template, redirect, flash, jsonify, session
 from flask_debugtoolbar import DebugToolbarExtension
 
+from boggle import Boggle
+
+boggle_game = Boggle()
 # Need to manually create HTML templates folder and tell Flask to render from it
 app = Flask(__name__,template_folder='templates')
 
