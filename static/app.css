@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #e5e8eb;
+    background: #aeb9c3;
 }
 
 h1 {
@@ -11,6 +11,22 @@ h1 {
     margin: 0;
     padding: 1rem;
     font-size: 2rem;
+}
+
+#boggle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top {
+    text-align: center;
+    margin: auto;
+}
+
+.board {
+    margin: auto;
+    padding: 1rem;
 }
 
 .cell {
@@ -26,34 +42,9 @@ h1 {
     background-color: lightslategray;
 }
 
-/* Highlight selected cells */
-/* #selected {
-    box-shadow: inset;
-} */
-
-#boggle {
-    border-radius: 5%;
-    background-color: #aeb9c3;
-    margin: 2rem 8rem;
-    padding: 1rem;
-    align-content: center;
-    display: inline-block;
-}
-
-.top {
-    text-align: center;
-    margin: auto;
-    align-content: center;
-}
-
-.board {
-    margin: auto;
-    align-content: center;
-    padding: 1rem;
-}
-
 .bottom {
     margin: auto;
     padding: 1rem;
     text-align: center;
+    line-height: .5rem; 
 }

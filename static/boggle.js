@@ -18,7 +18,7 @@ class BoggleGame {
     /* show word in list of words */
   
     showWord(word) {
-      $(".words", this.board).append($("<li>", { text: word }));
+      $(".words", this.board).append($("<p>", { text: word }));
     }
   
     /* show score in html */
