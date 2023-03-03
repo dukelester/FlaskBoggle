@@ -11,8 +11,9 @@
     <h1>Boggle</h1>
     <section id="boggle">
         <div class="top">
-            <p>Highscore:</p>
-            <p>Current Score:</p>
+            <p>
+                Score: <b class="score">0</b> | Timer: <b class="timer"></b>
+            </p>
         </div>
 
         <table class="board">
@@ -30,19 +31,20 @@
         <div class="bottom">
             <form method="POST" class="add-word">
                 <input name="word" class="word" autofocus>
-                <button>Enter</button>
+                <button>Submit</button>
             </form>
             <br>
-
-            <button class="reset-button">Reset</button>
+            <button class="reset-button">Restart</button>
             
             <p class="msg"></p>
-            <ul class="word-list"></ul>
+            <ul class="words">
+            </ul>
         </div>
     </section>
 
     <script src="http://unpkg.com/jquery"></script>
     <script src="https://unpkg.com/axios@0.19.0/dist/axios.js"></script>
     <script src="/static/boggle.js"></script>
+    <script>let game = new BoggleGame("boggle", 60);</script>
 </body>
 </html>
